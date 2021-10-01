@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Coc Survery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>CoC Players!</h1>
+    <p id="description">We're always looking forward on our game development. Please feel free and take your time doing our short survey. Thank You!</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Please Enter your Full name"><br>
+            <br>
+            <label id="email-label"><b>Email Address:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@supercell.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="Please Enter your Age">
+         </div>
+         <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>What Town Hall are you now? </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="13">Town Hall 13</option>
+                <option value="12">Town Hall 12</option>
+                <option value="11">Town Hall 11</option>
+                <option value="10">Town Hall 10</option>
+                <option value="9">Town Hall 9</option>
+                <option value="8">Town Hall 8</option>
+                <option value="7">Town Hall 7</option>
+                <option value="6">Town Hall 6</option>
+                <option value="5">Town Hall 5</option>
+            </select>
+         </div>
+         <div id="button-area">
+             <br>
+            <label id="job-label"><b>Active Status:</b></label><br>
+            <input type="radio" class="radio-inline" name="gender" value="Active" checked> Always Active<br>
+            <input type="radio" class="radio-inline" name="gender" value="Sometimes"> Sometimes Active<br>
+            <input type="radio" class="radio-inline" name="gender" value="Not"> Not Active at all<br>
+         
+          </div>
+          <div id="button-area"><br>
+            <label id="os-label"><b>What device are you using to play CLash of Clans? Please select all that apply.</b></label><br>
+            <input type="checkbox" name="os1" value="windows" > I am using Android Phone<br>
+            <input type="checkbox" name="os2" value="linux"> I am Using iPhone<br>
+            <input type="checkbox" name="0s3" value="mac"> I am using Computer<br>
+            <input type="checkbox" name="0s4" value="android"> I am using Laptop<br>
+            <input type="checkbox" name="0s5" value="solaris"> I am using Tablet<br>
+          </div>
+
+
+          <div id="ending"><br><br>
+            <label id="comments-label">Do you have any suggestion about this survey?</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Please feel free to write a review..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
+    </div>
+
+</body>
+</html>
